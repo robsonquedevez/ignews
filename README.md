@@ -4,8 +4,8 @@
 
 #### Techs and libs
 
-- React.js
 - Next.js
 - Typescript
+- Sass
 
 __under develovepment__
