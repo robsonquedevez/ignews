@@ -1,3 +1,4 @@
+import { SignButton } from '../SignButton/indes'
 import styles from './styles.module.scss'
 
 export function Header() {
@@ -8,7 +9,8 @@ export function Header() {
                 <nav>
                     <a className={styles.active}>Home</a>
                     <a>Posts</a>
-                </nav>  
+                </nav>
+                <SignButton />
             </div>
         </header>
     )
