@@ -9,6 +9,7 @@
 - Sass
 - FaunaDB
 - Stripe paymento API
+- Prismic CMS
 
 ### Running project
 
@@ -27,5 +28,9 @@ create file .env.local as example
 running
 
 > yarn dev
+
+listen event stripe development evironment
+
+> stripe listen --forward-to http://localhost:3000/api/webhooks
 
 _under develovepment_
